@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- Cherry CheeseCake https://color.adobe.com/Cherry-Cheesecake-color-theme-2354/edit/?copy=true -->
+<resources>
+    <color name="red">#B9121B</color>
+    <color name="dark_red">#4C1B1B</color>
+    <color name="cream">#F6E497</color>
+    <color name="white">#FCFAE1</color>
+    <color name="brown">#BD8D46</color>
+
+</resources>

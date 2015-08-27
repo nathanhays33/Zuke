@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/everything"
+        android:icon="@drawable/ic_action_nuke"
+        android:title="@string/nuke_all"
+        yourapp:showAsAction="always"  />
+    <item android:id="@+id/MMS"
+        android:icon="@drawable/ic_action_mms"
+        android:title="Zuke MMS"
+        yourapp:showAsAction="always"/>
+    <item android:id="@+id/SMS"
+        android:icon="@drawable/ic_action_chat"
+        android:title="Zuke SMS"
+        yourapp:showAsAction="always"/>
+    <item android:id="@+id/key"
+        android:icon="@drawable/ic_action_secure"
+        android:title="Password"
+        yourapp:showAsAction="always"/>
+</menu>

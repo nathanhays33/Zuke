@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="35dp">
+        <ImageButton
+            android:id="@+id/dot1"
+            android:background="@drawable/inactive_circle"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="15dp" />
+        <ImageButton
+            android:id="@+id/dot2"
+            android:background="@drawable/inactive_circle"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="15dp" />
+        <ImageButton
+            android:id="@+id/dot3"
+            android:background="@drawable/inactive_circle"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="15dp" />
+        <ImageButton
+            android:id="@+id/dot4"
+            android:background="@drawable/inactive_circle"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="15dp" />
+    </LinearLayout>
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:layout_centerInParent="true">
+
+
+
+    <Button
+        android:id="@+id/num1"
+        android:text="1"
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="43dp" />
+
+    <Button android:text="2"
+        android:id="@+id/num2"
+
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <Button android:text="3"
+        android:id="@+id/num3"
+
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <Button android:text="4"
+        android:id="@+id/num4"
+
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <Button android:text="5"
+        android:id="@+id/num5"
+
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <Button android:text="6"
+        android:id="@+id/num6"
+
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <Button android:text="7"
+        android:id="@+id/num7"
+
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <Button android:text="8"
+        android:id="@+id/num8"
+
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <Button android:text="9"
+        android:id="@+id/num9"
+
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <Button
+        android:text="0"
+        android:id="@+id/num0"
+
+        android:layout_column="1"
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+    <Button
+        android:text="back"
+        android:id="@+id/erase"
+
+        android:background="@android:color/transparent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+
+</GridLayout>
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter Passcode"
+        android:id="@+id/passcode_message"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

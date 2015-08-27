@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_margin"> 8px </dimen>
+    <dimen name="widget_margin_vertical"> 30px </dimen>
+    <dimen name="activity_vertical_margin"> 10px </dimen>
+    <dimen name="activity_horizontal_margin">10px</dimen>
+</resources>

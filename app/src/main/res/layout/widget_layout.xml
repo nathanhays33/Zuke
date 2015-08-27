@@ -1,0 +1,35 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/widget_layout"
+    android:paddingLeft="@dimen/widget_margin"
+    android:paddingRight="@dimen/widget_margin"
+    android:paddingTop="@dimen/widget_margin_vertical"
+    android:paddingBottom="@dimen/widget_margin_vertical"
+    android:padding= "@dimen/widget_margin">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:background="@drawable/zuke_store"
+            android:layout_weight=".8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Zuke"
+            android:layout_gravity="center"
+            android:id="@+id/textView"
+            android:layout_weight=".2"/>
+    </LinearLayout>
+
+</FrameLayout>

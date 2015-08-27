@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:id="@+id/button3"
+            android:onClick="help"
+            android:background="@drawable/help_ic"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/phoneNumber"
+            android:layout_weight=".7"
+            android:hint="Add a number - view the help"/>
+
+        <Button
+            android:textColor="@color/white"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@+id/button2"
+            android:onClick="addNumber"
+            android:background="@drawable/apptheme_btn_default_holo_light"
+            />
+    </LinearLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add From Contact"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="getContacts"
+        android:background="@drawable/apptheme_btn_default_holo_light"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".8"
+
+        />
+
+    <Button android:id="@+id/nukeList"
+        android:textColor="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Zuke List"
+        android:onClick="deleteTexts"
+        android:layout_marginBottom="15px"
+        android:background="@drawable/apptheme_btn_default_holo_light"
+        />
+
+
+</LinearLayout>
